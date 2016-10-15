@@ -5,13 +5,6 @@
     "format": "FRESH@0.6.0",
     "version": "0.1.0"
   },
-  "location": {
-    "city": "",
-    "region": "",
-    "country": "",
-    "code": "",
-    "address": ""
-  },
   "employment": {
     "history": [
       {
@@ -25,7 +18,7 @@
         "highlights": []
       },
       {
-        "position": "Master's thesis worker",
+        "position": "Master’s thesis worker",
         "employer": "Aalto University, Department of Media Technology",
         "summary": "I conducted research and wrote my thesis, Real-time Human Body Reconstruction Using a Depth Camera.\n\nThe thesis taught me a lot about scientific research, open-ended problem solving and practical graphics programming.",
         "start": "2012-06-01",
@@ -50,43 +43,49 @@
     "level": "",
     "history": [
       {
-        "institution": "Aalto-yliopisto",
+        "institution": "Aalto University",
         "start": "2011-01-01",
         "end": "2013-01-01",
         "grade": "",
         "curriculum": [],
-        "summary": "",
-        "area": "",
+        "summary": "Master of Science (Tech.) in Information Networks",
+        "area": "Information networks",
         "studyType": "Master of Science (Tech.)"
       },
       {
-        "institution": "Teknillinen korkeakoulu-Tekniska högskolan",
-        "start": "2008-01-01",
+        "institution": "Teknillinen korkeakoulu",
+        "start": "2008-09-01",
         "end": "2011-01-01",
-        "grade": "",
+        "grade": "4.07",
         "curriculum": [],
-        "summary": "",
-        "area": "",
+        "summary": "Bachelor of Science (Tech.) in Information Networks",
+        "area": "Information networks",
         "studyType": "Bachelor of Science (Tech.)"
       },
       {
-        "institution": "Teknillinen korkeakoulu-Tekniska högskolan",
-        "start": "2006-01-01",
-        "end": "2008-01-01",
+        "institution": "Teknillinen korkeakoulu",
+        "start": "2006-09-01",
+        "end": "2008-05-01",
         "grade": "",
         "curriculum": [],
-        "summary": "",
-        "area": "",
+        "summary": "Engineering physics and mathematics",
+        "area": "Engineering physics and mathematics",
         "studyType": ""
       }
     ]
   },
-  "skills": {},
-  "social": [],
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "dancek",
+      "url": "https://github.com/dancek"
+    }
+  ],
   "languages": [
     {
       "language": "Finnish",
-      "fluency": "Native or bilingual"
+      "fluency": "Native"
     },
     {
       "language": "English",
@@ -99,6 +98,14 @@
     {
       "language": "French",
       "fluency": "Elementary"
+    }
+  ],
+  "interests": [
+    {
+      "name": "reading"
+    },
+    {
+      "name": "cycling"
     }
   ]
 }

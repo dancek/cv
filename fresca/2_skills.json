@@ -1,4 +1,8 @@
 {
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
   "skills": {
     "sets": [
       {
@@ -45,7 +49,7 @@
         "name": "UNIX",
         "level": "master",
         "skills": [
-          "sh", "git", "GNU coreutils", "Homebrew", "Debian GNU/Linux", "NixOS", "awk", "Vim"
+          "sh", "git", "GNU coreutils", "Homebrew", "Debian GNU/Linux", "NixOS", "awk", "Vim", "LaTeX"
         ]
       },
       {
