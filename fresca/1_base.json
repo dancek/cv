@@ -1,0 +1,104 @@
+{
+  "name": "Hannu Hartikainen",
+  "info": {},
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "location": {
+    "city": "",
+    "region": "",
+    "country": "",
+    "code": "",
+    "address": ""
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Full Stack Developer",
+        "employer": "HiQ Finland",
+        "summary": "At HiQ I've become a software development generalist, working mostly on web frontend and backend, but on occasion also continuos integration and test automation, deployment, and even database administration and UI design. Colleagues often come to me with all kinds of (technical) questions, probably not because I know a lot but because I love learning and helping others.\n\nOne of my greatest achievements at HiQ was coming up with an optimization that brought the runtime of a performance-heavy business-critical piece of PL/SQL down by over 50%, after two other senior developers had decided it could not be optimized further. In some cases this meant over five minutes of time saved, which apparently corresponded to a lot of money.\n\nHighlights from my work on public websites includes implementing http://nordpoolspot.com/ and http://orion.fi/ (in teams of 2 developers, a designer and others).",
+        "current": true,
+        "start": "2013-01-01",
+        "url": "",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "Master's thesis worker",
+        "employer": "Aalto University, Department of Media Technology",
+        "summary": "I conducted research and wrote my thesis, Real-time Human Body Reconstruction Using a Depth Camera.\n\nThe thesis taught me a lot about scientific research, open-ended problem solving and practical graphics programming.",
+        "start": "2012-06-01",
+        "end": "2012-12-01",
+        "url": "",
+        "keywords": [],
+        "highlights": []
+      },
+      {
+        "position": "Trainee",
+        "employer": "Patria Aviation",
+        "summary": "I worked on tools for internal use in software projects, e.g. Trac plugins for project management.\n\nPatria was my first job involving programming, and I learned a lot about software engineering, many different technologies and especially information security.",
+        "start": "2009-06-01",
+        "end": "2011-08-01",
+        "url": "",
+        "keywords": [],
+        "highlights": []
+      }
+    ]
+  },
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "Aalto-yliopisto",
+        "start": "2011-01-01",
+        "end": "2013-01-01",
+        "grade": "",
+        "curriculum": [],
+        "summary": "",
+        "area": "",
+        "studyType": "Master of Science (Tech.)"
+      },
+      {
+        "institution": "Teknillinen korkeakoulu-Tekniska högskolan",
+        "start": "2008-01-01",
+        "end": "2011-01-01",
+        "grade": "",
+        "curriculum": [],
+        "summary": "",
+        "area": "",
+        "studyType": "Bachelor of Science (Tech.)"
+      },
+      {
+        "institution": "Teknillinen korkeakoulu-Tekniska högskolan",
+        "start": "2006-01-01",
+        "end": "2008-01-01",
+        "grade": "",
+        "curriculum": [],
+        "summary": "",
+        "area": "",
+        "studyType": ""
+      }
+    ]
+  },
+  "skills": {},
+  "social": [],
+  "languages": [
+    {
+      "language": "Finnish",
+      "fluency": "Native or bilingual"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Limited working"
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "skills": {
+    "sets": [
+      {
+        "name": "Web frontend",
+        "level": "master",
+        "skills": [
+          "JavaScript", "ES2016", "TypeScript", "CoffeeScript",
+          "HTML5", "CSS3",
+          "AngularJS", "jQuery", "React", "Redux", "Backbone.js", "Highcharts",
+          "Bootstrap", "PureCSS", "rscss",
+          "GruntJS", "webpack", "Bower",
+          "WebGL"
+        ]
+      },
+      {
+        "name": ".NET",
+        "level": "advanced",
+        "skills": [
+          "C#", "ASP.NET MVC 5", "Razor", "EPiServer 8", "Entity Framework", "LINQ", "MSBuild", "NuGet", "SignalR"
+        ]
+      },
+      {
+        "name": "JVM",
+        "level": "intermediate",
+        "skills": [
+          "Java 8", "Scala", "Clojure", "Wicket", "Spring Framework", "JUnit", "Mockito", "Maven", "sbt", "Leiningen"
+        ]
+      },
+      {
+        "name": "Other web backend",
+        "level": "intermediate",
+        "skills": [
+          "Node.js", "Express.js", "Ruby on Rails", "Python", "Django", "WSGI", "Trac"
+        ]
+      },
+      {
+        "name": "Database",
+        "level": "intermediate",
+        "skills": [
+          "PostgreSQL", "Oracle 12c", "MariaDB", "MongoDB", "PL/pgSQL", "PL/SQL", "PL/Python"
+        ]
+      },
+      {
+        "name": "UNIX",
+        "level": "master",
+        "skills": [
+          "sh", "git", "GNU coreutils", "Homebrew", "Debian GNU/Linux", "NixOS", "awk", "Vim"
+        ]
+      },
+      {
+        "name": "Other programming languages",
+        "level": "beginner",
+        "skills": [
+          "Haskell", "Rust", "batch file", "C99", "C++11", "Perl", "R",
+          "x86", "x87 (FPU)", "MMIX", "TIS-100",
+          "QBasic", "VBA"
+        ]
+      }
+    ]
+  }
+}
