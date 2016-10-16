@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Hannu Hartikainen</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic'
+        rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            main {
+              display: block;
+            }
+            
+            body {
+              font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
+              font-size: 15px;
+              color: #333;
+              line-height: 1.42857143;
+              background-color: #F0F0F0;
+              margin: 0;
+              padding: 0;
+            }
+            
+            /* Typical page borders are awkward when rendered to PDF. */
+            body.pdf {
+              background-color: #FFFFFF;
+            }
+            
+            /* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
+            the PDF case, <main> for the HTML case, and style both via an ID. */
+            #main {
+              background-color: #FFF;
+              margin: 10px;
+              padding: 10px;
+              border: 1px solid #E6E6E6;
+            }
+            
+            body.pdf > #main {
+              border: none;
+            }
+            
+            #container > header {
+              padding-top: 6em;
+              padding-bottom: 1em;
+            }
+            
+            body.pdf #container > header {
+              padding: 0;
+            }
+            
+            #main > #container > section {
+              margin-left: 5em;
+              position: relative;
+              display: block;
+            }
+            
+            span.fa
+            {
+              position: absolute;
+              top: 4px;
+              left: -50px;
+              font-size: 30px;
+              color: #BFC1C3;
+            }
+            
+            hr {
+              margin-top: 20px;
+              margin-bottom: 20px;
+              border: 0;
+              border-top: 1px solid #EEE;
+            }
+            
+            .tenure, .keywords {
+              font-size: 75%;
+            }
+            
+            h1 {
+              margin: 0;
+              font-size: 46px;
+            }
+            
+            h2 {
+              font-size: 24px;
+              color: #BFC1C3;
+              text-transform: uppercase;
+              font-weight: normal;
+            }
+            
+            h3 {
+              margin-bottom: 0;
+              font-size: 18px;
+            }
+            
+            a, a:visited {
+              color: #428BCA;
+              text-decoration: none;
+              font-weight: bold;
+            }
+            
+            a:hover {
+              text-decoration: underline;
+            }
+            
+            .defunct {
+              color: #989898;
+              font-weight: bold;
+            }
+            
+            #summary > p > strong {
+              font-size: 1.25em;
+            }
+            
+            
+            .label-keyword {
+              display: inline-block;
+              background: #7eb0db;
+              color: white;
+              font-size: 0.9em;
+              padding: 5px;
+              border: 1px solid #357ebd;
+              border-radius: 5px;
+              margin-top: 2px;
+            }
+            
+            .card-skills {
+                position: relative;
+            }
+            .card-nested {
+                min-height: 0;
+                margin-bottom: 10px;
+                border-width: 1px 0 0 0;
+            }
+            .card {
+                background: #FFF;
+                border-radius: 3px;
+                padding: 10px;
+            }
+            
+            .skill-level {
+              border-radius: 3px;
+              position: absolute;
+              top: 10px;
+              bottom: 10px;
+              left: 0;
+              width: 10px;
+              box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
+            }
+            .skill-level .skill-progress {
+              position: absolute;
+              border-radius: 3px;
+              bottom: 0;
+              width: 100%;
+              -webkit-transition: height 1s ease;
+            }
+            .skill-level .skill-progress.beginner {
+              height: 50%;
+              background: #e74c3c;
+            }
+            .skill-level .skill-progress.intermediate {
+              height: 70%;
+              background: #f1c40f;
+            }
+            .skill-level .skill-progress.advanced {
+              height: 80%;
+              background: #428bca;
+            }
+            .skill-level .skill-progress.master {
+              height: 95%;
+              background: #5cb85c;
+            }
+            .skill-info {
+              margin-left: 10px;
+            }
+            @media (max-width: 480px) {
+              .skill-info {
+                margin-left: 20px;
+              }
+            }
+            
+            .list-unstyled {
+              padding-left: 0;
+              list-style: none;
+            }
+            
+            .card-skills {
+              position: relative;
+            }
+            
+            .space-top {
+                margin-top: 10px;
+            }
+            
+            #container {
+              max-width: 800px;
+              margin: 0 auto;
+            }
+            
+            #elevator-pitch {
+              text-align: center;
+              font-size: 24px;
+              color: #BFC1C3;
+              text-transform: uppercase;
+              font-weight: normal;
+            }
+            
+            .res-label {
+              font-style: italic;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <main id="main">
+            <div id="container">
+                <header>
+                     <h1>Hannu Hartikainen</h1>
+
+                    <div id="contact"></div>
+                </header>
+                <hr>
+                <section id="summary">
+                    <header> <span class="fa fa-lg fa-info"></span> 
+                         <h2>info</h2>
+
+                    </header> <strong>Full-stack developer with 5+ years industry experience</strong>,
+                    broad technical expertise beyond “full-stack” and an interest to always
+                    learn more. Living in Vantaa with his wife and twins, Hannu enjoys family
+                    time, reading, cycling and hacking.</section>
+                <hr>
+                <section id="skills">
+                    <header>
+                         <h2>Skills</h2>
+
+                    </header> <span class="fa fa-lg fa-code"></span>
+
+                    <ul class="list-unstyled">
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="master" data-placement="left">
+                                <div class="skill-progress master"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Web frontend</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">JavaScript</span>
+ <span class="label label-keyword">ES2016</span>
+
+                                    <span
+                                    class="label label-keyword">TypeScript</span> <span class="label label-keyword">CoffeeScript</span>
+
+                                        <span
+                                        class="label label-keyword">HTML5</span> <span class="label label-keyword">CSS3</span>
+ <span class="label label-keyword">LESS</span>
+
+                                            <span
+                                            class="label label-keyword">SASS</span> <span class="label label-keyword">AngularJS</span>
+ <span class="label label-keyword">jQuery</span>
+
+                                                <span
+                                                class="label label-keyword">React</span> <span class="label label-keyword">Redux</span>
+ <span class="label label-keyword">Backbone.js</span>
+
+                                                    <span
+                                                    class="label label-keyword">Highcharts</span> <span class="label label-keyword">Bootstrap</span>
+
+                                                        <span
+                                                        class="label label-keyword">PureCSS</span> <span class="label label-keyword">rscss</span>
+ <span class="label label-keyword">GruntJS</span>
+
+                                                            <span
+                                                            class="label label-keyword">webpack</span> <span class="label label-keyword">Bower</span>
+ <span class="label label-keyword">WebGL</span>
+
+                                                                <span
+                                                                class="label label-keyword">WebSockets</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="advanced" data-placement="left">
+                                <div class="skill-progress advanced"></div>
+                            </div>
+                            <div class="skill-info"> <strong>.NET</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">C#</span>
+ <span class="label label-keyword">ASP.NET MVC 5</span>
+
+                                    <span
+                                    class="label label-keyword">Razor</span> <span class="label label-keyword">EPiServer 8</span>
+
+                                        <span
+                                        class="label label-keyword">Entity Framework</span> <span class="label label-keyword">LINQ</span>
+
+                                            <span
+                                            class="label label-keyword">MSBuild</span> <span class="label label-keyword">NuGet</span>
+ <span class="label label-keyword">SignalR</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
+                                <div class="skill-progress intermediate"></div>
+                            </div>
+                            <div class="skill-info"> <strong>JVM</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Java 8</span>
+ <span class="label label-keyword">Scala</span>
+
+                                    <span
+                                    class="label label-keyword">Clojure</span> <span class="label label-keyword">Wicket</span>
+ <span class="label label-keyword">Spring Framework</span>
+
+                                        <span
+                                        class="label label-keyword">JUnit</span> <span class="label label-keyword">Mockito</span>
+ <span class="label label-keyword">Maven</span>
+
+                                            <span
+                                            class="label label-keyword">sbt</span> <span class="label label-keyword">Leiningen</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
+                                <div class="skill-progress intermediate"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Other web backend</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Node.js</span>
+ <span class="label label-keyword">Express.js</span>
+
+                                    <span
+                                    class="label label-keyword">Ruby on Rails</span> <span class="label label-keyword">Python</span>
+
+                                        <span
+                                        class="label label-keyword">Django</span> <span class="label label-keyword">WSGI</span>
+ <span class="label label-keyword">Trac</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="intermediate" data-placement="left">
+                                <div class="skill-progress intermediate"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Database</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">PostgreSQL</span>
+ <span class="label label-keyword">Oracle 12c</span>
+
+                                    <span
+                                    class="label label-keyword">MariaDB</span> <span class="label label-keyword">MongoDB</span>
+ <span class="label label-keyword">SQL Server</span>
+
+                                        <span
+                                        class="label label-keyword">PL/pgSQL</span> <span class="label label-keyword">PL/SQL</span>
+ <span class="label label-keyword">PL/Python</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="master" data-placement="left">
+                                <div class="skill-progress master"></div>
+                            </div>
+                            <div class="skill-info"> <strong>UNIX</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">sh</span>
+ <span class="label label-keyword">git</span>
+
+                                    <span
+                                    class="label label-keyword">GNU coreutils</span> <span class="label label-keyword">Homebrew</span>
+
+                                        <span
+                                        class="label label-keyword">Debian GNU/Linux</span> <span class="label label-keyword">NixOS</span>
+
+                                            <span
+                                            class="label label-keyword">awk</span> <span class="label label-keyword">Vim</span>
+ <span class="label label-keyword">LaTeX</span>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="card card-nested card-skills">
+                            <div class="skill-level" rel="tooltip" title="beginner" data-placement="left">
+                                <div class="skill-progress beginner"></div>
+                            </div>
+                            <div class="skill-info"> <strong>Other languages</strong>
+
+                                <div class="space-top labels"> <span class="label label-keyword">Haskell</span>
+ <span class="label label-keyword">Rust</span>
+
+                                    <span
+                                    class="label label-keyword">batch file</span> <span class="label label-keyword">C99</span>
+ <span class="label label-keyword">C++11</span>
+
+                                        <span
+                                        class="label label-keyword">Perl</span> <span class="label label-keyword">R</span>
+ <span class="label label-keyword">x86</span>
+
+                                            <span
+                                            class="label label-keyword">MMIX</span> <span class="label label-keyword">TIS-100</span>
+ <span class="label label-keyword">QBasic</span>
+
+                                                <span
+                                                class="label label-keyword">VBA</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <hr>
+                <section id="employment">
+                    <header> <span class="fa fa-lg fa-building"></span> 
+                         <h2>employment</h2>
+
+                    </header>
+                    <div>
+                         <h3><em>Stay-at-home twin dad</em>,
+    
+    </h3>
+ <span class="tenure">2016-08 — 2017-01</span>
+
+                        <p>
+                            <p>Taking care of our 1.5-year-old twins has taught me a lot about life,
+                                love and learning. While not technical work, I believe parenting makes
+                                me a better developer (and person) in the long run, too.</p>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Full Stack Developer</em>,
+    HiQ Finland
+    </h3>
+ <span class="tenure">2013-01 — Present</span>
+
+                        <p>
+                            <p>At HiQ I&#39;ve become a software development <strong>generalist</strong>,
+                                working mostly on web frontend and backend, but on occasion also continuos
+                                integration and test automation, deployment, and even database administration
+                                and UI design. Colleagues often come to me with all kinds of (technical)
+                                questions, probably not because I know a lot but because <strong>I love learning and helping others</strong>.</p>
+                            <p>One of my greatest achievements at HiQ was coming up with an optimization
+                                that brought the runtime of a performance-heavy business-critical piece
+                                of PL/SQL down by over 50%, after two other senior developers had decided
+                                it could not be optimized further. In some cases this meant over five minutes
+                                of time saved, which apparently corresponded to a lot of money.</p>
+                            <p>Highlights from my work on public websites includes implementing <a href="http://nordpoolspot.com/">http://nordpoolspot.com/</a> and
+                                <a
+                                href="http://orion.fi/">http://orion.fi/</a>(in teams of 2 developers, a designer and others).</p>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Master’s thesis worker</em>,
+    Aalto University, Department of Media Technology
+    </h3>
+ <span class="tenure">2012-06 — 2012-12</span>
+
+                        <p>
+                            <p>I conducted research and wrote my thesis, Real-time Human Body Reconstruction
+                                Using a Depth Camera.</p>
+                            <p>The thesis taught me a lot about scientific research, open-ended <strong>problem solving</strong> and
+                                practical graphics programming.</p>
+                        </p>
+                    </div>
+                    <div>
+                         <h3><em>Trainee</em>,
+    Patria Systems
+    </h3>
+ <span class="tenure">2009-06 — 2011-08</span>
+
+                        <p>
+                            <p>I worked on tools for internal use in software projects, e.g. Trac plugins
+                                for project management.</p>
+                            <p>This was my first job involving programming, and I learned a lot about
+                                software engineering, many different technologies and especially <strong>information security</strong>.</p>
+                        </p>
+                    </div>
+                </section>
+                <hr>
+                <section id="education">
+                    <header> <span class="fa fa-lg fa-mortar-board"></span> 
+                         <h2>education</h2>
+
+                    </header>
+                    <div>
+                        
+<h3>
+Aalto University
+</h3>
+
+<span class="tenure">2011-01 — 2013-01</span>
+
+                        <p>Master of Science (Tech.) in Information Networks.</p>
+                    </div>
+                    <div>
+                        
+<h3>
+Teknillinen korkeakoulu
+</h3>
+
+<span class="tenure">2008-09 — 2011-01</span>
+
+                        <p>Bachelor of Science (Tech.) in Information Networks</p>
+                    </div>
+                    <div>
+                        
+<h3>
+Teknillinen korkeakoulu
+</h3>
+
+<span class="tenure">2006-09 — 2008-05</span>
+
+                        <p>Engineering physics and mathematics</p>
+                    </div>
+                </section>
+                <hr>
+                <section id="interests">
+                    <header> <span class="fa fa-lg fa-bicycle"></span> 
+                         <h2>interests</h2>
+
+                    </header>
+                    <div>
+                         <h3><em>reading</em></h3>
+ <span class="tenure">Current</span>
+
+                    </div>
+                    <div>
+                         <h3><em>cycling</em></h3>
+ <span class="tenure">Current</span>
+
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+
+</html>
