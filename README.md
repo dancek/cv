@@ -1,10 +1,6 @@
 # Hannu Hartikainen's CV / Resumé
 
-My CV in the FRESCA format. Use https://github.com/hacksalot/HackMyResume to build.
+My CV in the FRESCA format. Read it online at:
 
-E.g.
-
-```
-npm install -g hackmyresume
-hackmyresume BUILD fresca/* TO out/resume.all
-```
+- https://dancek.github.io/cv/
+- https://dancek.github.io/cv/print.html
