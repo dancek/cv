@@ -9,9 +9,12 @@ set -e
 
 which hackmyresume > /dev/null || echo "hackmyresume not found; try `npm install -g hackmyresume` first."
 
-hackmyresume BUILD fresca/* TO index.html && hackmyresume BUILD fresca/* TO print.html -t positive
+tmpdir=$(mktemp -d)
+hackmyresume BUILD fresca/* TO $tmpdir/index.html && hackmyresume BUILD fresca/* TO $tmpdir/print.html -t positive
 
 git checkout gh-pages
+mv $tmpdir/* .
+rmdir $tmpdir
 git commit *.html *.css -m 'automatically build, commit and push gh-pages'
 git push origin gh-pages
 git checkout master
