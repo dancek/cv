@@ -10,11 +10,11 @@
         "level": "master",
         "skills": [
           "JavaScript", "ES2016", "TypeScript", "CoffeeScript",
-          "HTML5", "CSS3",
+          "HTML5", "CSS3", "LESS", "SASS",
           "AngularJS", "jQuery", "React", "Redux", "Backbone.js", "Highcharts",
           "Bootstrap", "PureCSS", "rscss",
           "GruntJS", "webpack", "Bower",
-          "WebGL"
+          "WebGL", "WebSockets"
         ]
       },
       {
@@ -42,7 +42,7 @@
         "name": "Database",
         "level": "intermediate",
         "skills": [
-          "PostgreSQL", "Oracle 12c", "MariaDB", "MongoDB", "PL/pgSQL", "PL/SQL", "PL/Python"
+          "PostgreSQL", "Oracle 12c", "MariaDB", "MongoDB", "SQL Server", "PL/pgSQL", "PL/SQL", "PL/Python"
         ]
       },
       {
@@ -53,11 +53,11 @@
         ]
       },
       {
-        "name": "Other programming languages",
+        "name": "Other languages",
         "level": "beginner",
         "skills": [
           "Haskell", "Rust", "batch file", "C99", "C++11", "Perl", "R",
-          "x86", "x87 (FPU)", "MMIX", "TIS-100",
+          "x86", "MMIX", "TIS-100",
           "QBasic", "VBA"
         ]
       }
