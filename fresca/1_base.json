@@ -1,7 +1,7 @@
 {
   "name": "Hannu Hartikainen",
   "info": {
-    "brief": "**Full-stack developer with 5+ years industry experience**, broad technical expertise beyond “full-stack” and an interest to always learn more. In my spare time I enjoy family time, reading, cycling and hacking."
+    "brief": "**Full-stack developer with 5+ years industry experience**, broad technical proficiency beyond “full-stack” and an interest to always learn more. In my spare time I enjoy family time, reading, cycling and hacking."
   },
   "meta": {
     "format": "FRESH@0.6.0",
@@ -83,6 +83,7 @@
       },
       {
         "institution": "Self-learning (MOOC)",
+        "start": "2014",
         "summary": "I have certificates from various edX courses from top universities: [Artificial Intelligence](https://verify.edx.org/cert/4c11ce0507db43f1956ada6835d67a25) (BerkeleyX), [Introduction to Big Data with Apache Spark](https://verify.edx.org/cert/5929c90b7f8b4dfe95a5f078e2be8f03) (BerkeleyX), [Street-Fighting Math](https://verify.edx.org/cert/01ff69c3b9034396bb78251c86daeb12) (MITx) and [The Engineering of Structures Around Us](https://verify.edx.org/cert/dcd0ed79851a432d980b4740b32c5a0f) (DartmouthX).\nAdditionally, I've completed [DEV201x: Introduction to TypeScript](https://verify.edx.org/cert/76ddc1850fc743d292752f0b63d1236e) (Microsoft, not a university) and [Functional programming with Clojure](http://mooc.fi/courses/2014/clojure/) (University of Helsinki, no certificate)."
       }
     ]
