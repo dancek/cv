@@ -21,42 +21,49 @@
         "name": ".NET",
         "level": "advanced",
         "skills": [
-          "C#", "ASP.NET MVC 5", "Razor", "EPiServer 8", "Entity Framework", "LINQ", "MSBuild", "NuGet", "SignalR"
+          "C#", "ASP.NET MVC 5", "Razor", "EPiServer 8", "LINQ", "NuGet", "SignalR"
         ]
       },
       {
         "name": "JVM",
         "level": "intermediate",
         "skills": [
-          "Java 8", "Scala", "Clojure", "Wicket", "Spring Framework", "JUnit", "Mockito", "Maven", "sbt", "Leiningen"
+          "Java 8", "Scala", "Clojure", "Wicket", "Spring Framework", "JUnit", "Mockito", "Maven", "sbt"
         ]
       },
       {
         "name": "Other web backend",
         "level": "intermediate",
         "skills": [
-          "Node.js", "Express.js", "Ruby on Rails", "Python", "Django", "WSGI", "Trac"
+          "Node.js", "Express.js", "Ruby on Rails", "Python", "Django", "Trac"
         ]
       },
       {
         "name": "Database",
         "level": "intermediate",
         "skills": [
-          "PostgreSQL", "Oracle 12c", "MariaDB", "MongoDB", "SQL Server", "PL/pgSQL", "PL/SQL", "PL/Python"
+          "PostgreSQL", "Oracle 12c", "MariaDB", "SQL Server", "Azure SQL", "PL/pgSQL", "PL/SQL", "PL/Python"
         ]
       },
       {
         "name": "UNIX",
         "level": "master",
         "skills": [
-          "sh", "git", "GNU coreutils", "Homebrew", "Debian GNU/Linux", "NixOS", "awk", "Vim", "LaTeX"
+          "sh", "git", "GNU coreutils", "Homebrew", "Debian GNU/Linux", "NixOS"
         ]
       },
       {
-        "name": "Other languages",
+        "name": "Misc",
+        "level": "intermediate",
+        "skills": [
+          "Apache Spark", "Robot framework", "LaTeX", "Vim", "PCRE", "Docker", "Jenkins", "Travis"
+        ]
+      },
+      {
+        "name": "Exposure to",
         "level": "beginner",
         "skills": [
-          "Haskell", "Rust", "batch file", "C99", "C++11", "Perl", "R",
+          "Haskell", "Rust", "batch file", "C99", "C++11", "Perl", "PHP", "R",
           "x86", "MMIX", "TIS-100",
           "QBasic", "VBA"
         ]
