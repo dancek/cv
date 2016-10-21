@@ -63,7 +63,7 @@
         "name": "Exposure to",
         "level": "beginner",
         "skills": [
-          "Haskell", "Rust", "batch file", "C", "C++", "Perl", "PHP", "R",
+          "Haskell", "Rust", "batch file", "C", "C++", "Perl", "PHP", "R", "MATLAB",
           "x86", "MMIX", "TIS-100",
           "QBasic", "VBA"
         ]
