@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "education": {
+    "level": "M.Sc. (Tech.)",
+    "history": [
+      {
+        "institution": "Aalto University",
+        "start": "2011-01-01",
+        "end": "2013-01-01",
+        "grade": "",
+        "curriculum": [],
+        "summary": "Master of Science (Tech.) in Information Networks.",
+        "area": "Information networks",
+        "studyType": "Master of Science (Tech.)"
+      },
+      {
+        "institution": "Teknillinen korkeakoulu",
+        "start": "2008-09-01",
+        "end": "2011-01-01",
+        "grade": "4.07",
+        "curriculum": [],
+        "summary": "Bachelor of Science (Tech.) in Information Networks",
+        "area": "Information networks",
+        "studyType": "Bachelor of Science (Tech.)"
+      },
+      {
+        "institution": "Teknillinen korkeakoulu",
+        "start": "2006-09-01",
+        "end": "2008-05-01",
+        "grade": "",
+        "curriculum": [],
+        "summary": "Engineering physics and mathematics",
+        "area": "Engineering physics and mathematics",
+        "studyType": ""
+      },
+      {
+        "institution": "Self-learning (MOOC)",
+        "start": "2014",
+        "summary": "I have certificates from various edX courses from top universities: [Artificial Intelligence](https://verify.edx.org/cert/4c11ce0507db43f1956ada6835d67a25) (BerkeleyX), [Introduction to Big Data with Apache Spark](https://verify.edx.org/cert/5929c90b7f8b4dfe95a5f078e2be8f03) (BerkeleyX), [Street-Fighting Math](https://verify.edx.org/cert/01ff69c3b9034396bb78251c86daeb12) (MITx) and [The Engineering of Structures Around Us](https://verify.edx.org/cert/dcd0ed79851a432d980b4740b32c5a0f) (DartmouthX).\n\nAdditionally, I've completed [DEV201x: Introduction to TypeScript](https://verify.edx.org/cert/76ddc1850fc743d292752f0b63d1236e) (Microsoft, not a university) and [Functional programming with Clojure](http://mooc.fi/courses/2014/clojure/) (University of Helsinki, no certificate)."
+      }
+    ]
+  }
+}
