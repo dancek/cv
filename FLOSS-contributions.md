@@ -13,6 +13,7 @@
 
 Some good pull requests that haven't been accepted:
 
+- https://github.com/imazen/slimmage/pull/37
 - https://github.com/supercrabtree/k/pull/35
 - https://github.com/karma-runner/karma-coverage/pull/147
 
