@@ -7,6 +7,7 @@
 1. [bayespy/bayespy](https://github.com/bayespy/bayespy/commits?author=dancek)
 1. [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core/commits?author=dancek)
 1. [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/commits?author=dancek)
+1. [NixOS/nixos-hardware](https://github.com/NixOS/nixos-hardware/commits?author=dancek)
 1. [odota/core](https://github.com/odota/core/commits?author=dancek)
 1. [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl/commit/e03532a23362e097fa286e4dda64d3425c6bc8bf)
 
