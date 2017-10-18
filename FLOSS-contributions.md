@@ -9,9 +9,13 @@
 1. [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs/commits?author=dancek)
 1. [NixOS/nixos-hardware](https://github.com/NixOS/nixos-hardware/commits?author=dancek)
 1. [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl/commit/e03532a23362e097fa286e4dda64d3425c6bc8bf)
-1. [twbs/bootstrap](https://github.com/twbs/bootstrap/commits?author=dancek)
 1. [highcharts/highcharts](https://github.com/highcharts/highcharts/commits?author=dancek)
+1. [twbs/bootstrap](https://github.com/twbs/bootstrap/commits?author=dancek)
+
+Non-code / tiny changes:
+
 1. [phoenix-framework/phoenix](https://github.com/phoenixframework/phoenix/commits?author=dancek)
+1. [jmesmon/illum](https://github.com/jmesmon/illum/commits?author=dancek)
 
 Some good pull requests that haven't been accepted:
 
