@@ -1,7 +1,7 @@
 # Commits to other people's FLOSS projects
 
 1. [bayespy/bayespy](https://github.com/bayespy/bayespy/commits?author=dancek)
-1. [code-stats/code-stats](https://github.com/code-stats/code-stats/commits?author=dancek)
+1. [code-stats/code-stats](https://github.com/code-stats/code-stats/commits/grid-refactor?author=dancek) (moved to [GitLab](https://gitlab.com/code-stats/code-stats/commit/cd7b716c4d3aa7ba08133988e5e4acc041be3cba), which doesn't support author commit listing yet)
 1. [glowing-bear/glowing-bear](https://github.com/glowing-bear/glowing-bear/commits?author=dancek)
 1. [imazen/slimmage](https://github.com/imazen/slimmage/commits?author=dancek)
 1. [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core/commits?author=dancek)
@@ -16,6 +16,9 @@ Non-code / tiny changes:
 
 1. [phoenix-framework/phoenix](https://github.com/phoenixframework/phoenix/commits?author=dancek)
 1. [jmesmon/illum](https://github.com/jmesmon/illum/commits?author=dancek)
+
+Soon coming:
+1. [Microsoft/vscode](https://github.com/Microsoft/vscode/commits?author=dancek)
 
 Some good pull requests that haven't been accepted:
 
