@@ -2,6 +2,7 @@
 
 1. [bayespy/bayespy](https://github.com/bayespy/bayespy/commits?author=dancek)
 1. [code-stats/code-stats](https://github.com/code-stats/code-stats/commits/grid-refactor?author=dancek) (moved to [GitLab](https://gitlab.com/code-stats/code-stats/commit/cd7b716c4d3aa7ba08133988e5e4acc041be3cba), which doesn't support author commit listing yet)
+1. [sjappig/velo-backend](https://github.com/sjappig/velo-backend/commits?author=dancek)
 1. [glowing-bear/glowing-bear](https://github.com/glowing-bear/glowing-bear/commits?author=dancek)
 1. [imazen/slimmage](https://github.com/imazen/slimmage/commits?author=dancek)
 1. [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core/commits?author=dancek)
