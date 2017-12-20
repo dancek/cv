@@ -13,6 +13,7 @@
 1. [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl/commit/e03532a23362e097fa286e4dda64d3425c6bc8bf)
 1. [highcharts/highcharts](https://github.com/highcharts/highcharts/commits?author=dancek)
 1. [twbs/bootstrap](https://github.com/twbs/bootstrap/commits?author=dancek)
+1. [caskroom/homebrew-cask](https://github.com/caskroom/homebrew-cask/commits?author=dancek)
 
 Non-code / tiny changes:
 
