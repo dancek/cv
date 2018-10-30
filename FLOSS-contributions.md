@@ -19,6 +19,7 @@ Non-code / tiny changes:
 
 1. [phoenix-framework/phoenix](https://github.com/phoenixframework/phoenix/commits?author=dancek)
 1. [jmesmon/illum](https://github.com/jmesmon/illum/commits?author=dancek)
+1. [metosin/reitit](https://github.com/metosin/reitit/commits?author=dancek)
 
 Some good pull requests that haven't been accepted:
 
