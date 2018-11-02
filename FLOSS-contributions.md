@@ -1,3 +1,8 @@
+# My own (notable) FLOSS projects
+
+- https://gitlab.com/code-stats/code-stats-vim
+- https://gitlab.com/code-stats/code-stats-zsh
+
 # Commits to other people's FLOSS projects
 
 1. [bayespy/bayespy](https://github.com/bayespy/bayespy/commits?author=dancek)
@@ -14,12 +19,14 @@
 1. [highcharts/highcharts](https://github.com/highcharts/highcharts/commits?author=dancek)
 1. [twbs/bootstrap](https://github.com/twbs/bootstrap/commits?author=dancek)
 1. [caskroom/homebrew-cask](https://github.com/caskroom/homebrew-cask/commits?author=dancek)
+1. [metosin/reitit](https://github.com/metosin/reitit/commits?author=dancek)
+
+See also: https://gitlab.com/users/dancek/contributed
 
 Non-code / tiny changes:
 
 1. [phoenix-framework/phoenix](https://github.com/phoenixframework/phoenix/commits?author=dancek)
 1. [jmesmon/illum](https://github.com/jmesmon/illum/commits?author=dancek)
-1. [metosin/reitit](https://github.com/metosin/reitit/commits?author=dancek)
 1. [sliedes/ufag](https://github.com/sliedes/ufag/commits?author=dancek)
 
 Some good pull requests that haven't been accepted:
