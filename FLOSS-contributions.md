@@ -8,10 +8,10 @@
 In alphabetical order.
 
 1. [bayespy/bayespy](https://github.com/bayespy/bayespy/commits?author=dancek)
-1. [caskroom/homebrew-cask](https://github.com/caskroom/homebrew-cask/commits?author=dancek)
 1. [code-stats/code-stats](https://gitlab.com/code-stats/code-stats) (moved to [GitLab](https://gitlab.com/code-stats/code-stats/commit/cd7b716c4d3aa7ba08133988e5e4acc041be3cba), which doesn't support author commit listing yet)
 1. [glowing-bear/glowing-bear](https://github.com/glowing-bear/glowing-bear/commits?author=dancek)
 1. [highcharts/highcharts](https://github.com/highcharts/highcharts/commits?author=dancek)
+1. [Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask/commits?author=dancek)
 1. [Homebrew/homebrew-core](https://github.com/Homebrew/homebrew-core/commits?author=dancek)
 1. [imazen/slimmage](https://github.com/imazen/slimmage/commits?author=dancek)
 1. [jmesmon/illum](https://github.com/jmesmon/illum/commits?author=dancek)
