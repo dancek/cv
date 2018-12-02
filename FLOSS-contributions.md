@@ -8,7 +8,7 @@
 In alphabetical order.
 
 1. [bayespy/bayespy](https://github.com/bayespy/bayespy/commits?author=dancek)
-1. [code-stats/code-stats](https://gitlab.com/code-stats/code-stats) (moved to [GitLab](https://gitlab.com/code-stats/code-stats/commit/cd7b716c4d3aa7ba08133988e5e4acc041be3cba), which doesn't support author commit listing yet)
+1. [code-stats/code-stats](https://gitlab.com/code-stats/code-stats/commit/cd7b716c4d3aa7ba08133988e5e4acc041be3cba)
 1. [glowing-bear/glowing-bear](https://github.com/glowing-bear/glowing-bear/commits?author=dancek)
 1. [highcharts/highcharts](https://github.com/highcharts/highcharts/commits?author=dancek)
 1. [Homebrew/homebrew-cask](https://github.com/Homebrew/homebrew-cask/commits?author=dancek)
@@ -24,6 +24,7 @@ In alphabetical order.
 1. [PointCloudLibrary/pcl](https://github.com/PointCloudLibrary/pcl/commit/e03532a23362e097fa286e4dda64d3425c6bc8bf)
 1. [sjappig/velo-backend](https://github.com/sjappig/velo-backend/commits?author=dancek)
 1. [sliedes/ufag](https://github.com/sliedes/ufag/commits?author=dancek)
+1. [technomancy/leiningen](https://github.com/technomancy/leiningen/commits/master?author=dancek)
 1. [twbs/bootstrap](https://github.com/twbs/bootstrap/commits?author=dancek)
 
 Some good pull requests that haven't been accepted:
